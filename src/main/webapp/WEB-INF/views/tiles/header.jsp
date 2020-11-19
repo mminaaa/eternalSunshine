@@ -1,8 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <meta rcharset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta name="description" content="" />
-<meta name="author" content="" />
+<meta property="og:image" content="resources/images/slide3.jpg">
+<meta property="og:description" content="This' is a website to introduce my favorite movie 'Eternal Sunshine'.">
+<meta property="og:title" content="Eternal Sunshine">
+
 <title>Eternal Sunshine</title>
         
 <!-- Favicon-->
