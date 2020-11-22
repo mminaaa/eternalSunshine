@@ -43,7 +43,7 @@ public class HomeController {
 		
 		String url = "https://rss.app/feeds/d5FESJMiaJaj7HW6.xml";
 		
-		List<Map<String, String>> list = new ArrayList<>();
+		List<Map<String, String>> list = new ArrayList<Map<String,String>>();
 		Map<String, String> map;
 		
 		try {
