@@ -23,13 +23,13 @@
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row">
-                	<c:forEach var="item" items="${list}" begin="0" end="8">
+                	<c:forEach var="item" items="${list}" begin="0" end="8" varStatus="loop">
 	                    <div class="col-md-6 col-lg-4 mb-5">
-	                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+	                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1" onclick="alert('${loop.index}');">
 	                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 	                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
 	                            </div>
-	                            <img class="img-fluid" src="${item.imageUrl }" style="height:186px; width: 331px;"/>  <!-- 썸네일 -->
+	                            <img class="img-fluid" src="${item.imageUrl }" />  <!-- 썸네일 -->
 	                        </div>
 	                    </div>
                 	</c:forEach>
@@ -56,7 +56,7 @@
                 <div class="text-center mt-4">
                     <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
                         <i class="fas fa-download mr-2"></i>
-                        테스트를 위한 commit 111111111111111111111111111111111111
+                        test
                     </a>
                 </div>
             </div>
@@ -119,7 +119,7 @@
             <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
         </div>
         <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
+        <!-- Portfolio Modal 1
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
@@ -130,17 +130,13 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
-                                    <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="resources/assets/img/portfolio/cabin.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
@@ -152,7 +148,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
 
 
