@@ -34,7 +34,7 @@ public class HomeController {
 	
 	private List<Map<String, String>> getYoutubeList() {
 		
-		String url = "https://rss.app/feeds/42FyhxIqnICT3lEl.xml";
+		String url = "https://rss.app/feeds/7uhVxK42VZpMOuSn.xml";
 		
 		List<Map<String, String>> list = new ArrayList<Map<String,String>>();
 		Map<String, String> map;
