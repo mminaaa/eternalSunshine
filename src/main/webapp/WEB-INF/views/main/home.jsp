@@ -3,6 +3,14 @@
 <link href="resources/css/bxslider.css" rel="stylesheet" />
 <script src="resources/js/jquery.bxslider.js"></script>
 
+<script>
+function openPopup(idx) {
+	alert(idx);
+}
+
+</script>
+
+
 <ul class="bxslider1">
 	<li><img src="resources/images/slide3.jpg"></a></li>
 	<li><img src="resources/images/slide1.jpg"></a></li>
@@ -25,7 +33,7 @@
                 <div class="row">
                 	<c:forEach var="item" items="${list}" begin="0" end="8" varStatus="loop">
 	                    <div class="col-md-6 col-lg-4 mb-5">
-	                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1" onclick="alert('${loop.index}');">
+	                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1" onclick="openPopup('${loop.index}');">
 	                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 	                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
 	                            </div>

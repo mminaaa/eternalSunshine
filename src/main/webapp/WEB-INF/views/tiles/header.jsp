@@ -2,7 +2,7 @@
 <meta rcharset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta property="og:image" content="resources/images/slide3.jpg">
-<meta property="og:description" content="This' is a website to introduce my favorite movie 'Eternal Sunshine'.">
+<meta property="og:description" content="This is a website to introduce my favorite movie Eternal Sunshine">
 <meta property="og:title" content="Eternal Sunshine">
 
 <title>Eternal Sunshine</title>
